@@ -1,0 +1,44 @@
+.grupo{
+    border-style:hover;
+    padding:60px;
+    margin: 10em auto;
+    width: 35%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    
+}
+img{
+    padding-left: 9%;
+    width: 90%;
+    height: 70%;
+}
+p{
+    text-align: center;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10%;
+    justify-content: space-around;
+    grid-gap: 10px;
+    margin-bottom:15px;
+}
+.bebidas{
+    border-style:hover;
+    padding:60px;
+    margin: 10em auto;
+    margin-top: 0;
+    width: 60%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    
+}

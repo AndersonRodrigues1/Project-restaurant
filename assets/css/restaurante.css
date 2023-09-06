@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+.cabecalho{
+    top: 10px;
+    position: absolute;
+    display:flex;
+    padding: 0.2em 0.6em;
+    gap: 10px;
+
+}
+.botao-navegacao{
+    text-decoration: none;
+    color: white;
+    font-family: helvetica, sans-serif;
+    padding: 0.2em 0.1em;
+    border-radius: 10px;
+}
+.botao-navegacao:hover{
+    background: #4106f2;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
+    text-shadow: none;
+    
+}
+
+.conteiner{
+    text-align: center;  
+}
+.botao-container{
+    display:flex;
+    padding: 10%;
+    justify-content:space-around;
+    cursor: pointer;
+    
+}
+.btn{
+    padding: 0.2em 0.6em;
+    border-radius: 10px;
+}
+
+.btn-proprietario{
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    font-family: helvetica,sans-serif;
+   
+}
+.btn-cliente{
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    font-family: helvetica,sans-serif;
+}
+.btn:hover{
+    background: #4106f2;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    margin: 1%;
+}
+.logo{
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+@media only screen and (min-width: 717px){
+    body{
+        font-size: 2em;
+    }
+}
